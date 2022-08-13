@@ -8,10 +8,10 @@ module.exports = (() => {
 
 
     router.get('/clubes/get-clubes', controller.getClubes);
-    router.post('/clubes');
-    router.put('/clubes/:id');
-    router.delete('/clubes/:id');
-    router.get('/clubes/:id');
+    router.post('/clubes/create-clubes',controller.createClubes);
+    router.put('/clubes/update-clubes/:id',controller.updateClubes);
+    router.delete('/clubes/delete-clubes/:id',controller.deleteClubes);
+    router.get('/clubes/get-club/:id',controller.getClub);
 
     return router;
 })();

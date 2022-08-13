@@ -81,7 +81,7 @@ module.exports.deleteClubes = async (req,res) =>{
 };
 
 
-module.exports.updateClubes = async (req,res) =>{
+module.exports.updatePersonas = async (req,res) =>{
 
     try{
     

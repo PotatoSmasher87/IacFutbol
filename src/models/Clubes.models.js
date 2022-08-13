@@ -14,7 +14,8 @@ module.exports = (sequelize) => {
         }, {
             freezeTableName: true,
             timestamps: true
-        });
+        },
+       );
  
   return Clubes;
     }
