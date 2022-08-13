@@ -71,8 +71,8 @@ module.exports.deleteClubes = async (req,res) =>{
         }
     })
 
-    console.log(listaClubes);
-    res.send('gettin clubes')
+    console.log('Club borrado');
+    res.send('Club borrado')
     } catch{
 
         return res.status(500)
